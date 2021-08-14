@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  scala-sbt:
+    container_name: myscala-sbt
+    image: scala-sbt
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    working_dir: /usr/app/samples # set your prefer dir
+    volumes:
+        - ./app:/usr/app
+
+    command: tail -f /dev/null # keep open container 
