@@ -11,7 +11,7 @@ Steps:
 
 Happy coding!!
 
-Run steps
+Run Tests
 
     sbt compile test
     sbt "testOnly *[class-test-name]"
