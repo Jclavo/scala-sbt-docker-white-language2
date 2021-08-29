@@ -7,6 +7,12 @@ Steps:
     docker-compose build
     docker-compose up -d
     docker exec -it myscala-sbt /bin/bash (it will open a container terminal)
-    Go to folder /usr/app/samples (there are 2 basic samples "hello world and how to test", read its readmes and run them) 
+    Go to folder /usr/app/white-language
 
 Happy coding!!
+
+Run steps
+
+    sbt compile test
+    sbt "testOnly *[class-test-name]"
+    sbt "testOnly *[class-test-name] -- -z [test-name]"
