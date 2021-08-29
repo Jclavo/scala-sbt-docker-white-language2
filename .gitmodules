@@ -1,0 +1,3 @@
+[submodule "app/white-language"]
+	path = app/white-language
+	url = https://github.com/Jclavo/WhileLang.git
