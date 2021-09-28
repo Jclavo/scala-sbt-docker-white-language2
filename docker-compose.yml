@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    working_dir: /usr/app/samples # set your prefer dir
+    working_dir: /usr/app/white-language # set your prefer dir
     volumes:
         - ./app:/usr/app
 
